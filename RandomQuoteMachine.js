@@ -46,7 +46,6 @@ fetch("https://type.fit/api/quotes")
 
     const setAnimation = function () {
       const animation = document.getElementsByClassName("fade");
-      console.log(animation);
 
       animation[0].style.animation = "none";
       window.requestAnimationFrame(function () {

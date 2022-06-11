@@ -13,6 +13,7 @@
   }
 }
 #quote-box {
+  align-items: center;
   font-size: 30px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   background-color: aliceblue;
@@ -70,6 +71,7 @@
 #author {
   font-family: "Brittany Signature", sans-serif;
   margin: 0 0 0 0;
+  text-shadow: 0 0 2px black;
 }
 body {
   overflow: hidden;
@@ -80,4 +82,18 @@ p {
 }
 fade {
   animation: fadeIn 2s;
+}
+
+footer {
+  position: absolute;
+  min-width: 510px;
+  text-align: center;
+  margin-top: 1%;
+}
+
+#tag {
+  font-size: 15px;
+  color: white;
+  font-family: "Brittany Signature", sans-serif;
+  text-shadow: 0 0 2px black;
 }

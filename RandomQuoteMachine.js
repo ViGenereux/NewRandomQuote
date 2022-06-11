@@ -82,6 +82,9 @@ const QuoteBox = () => (
           className="fa-brands fa-twitter randomTxtColor"
         ></a>
       </div>
+      <footer>
+        <b id="tag">by VGenereux</b>
+      </footer>
     </div>
   </div>
 );

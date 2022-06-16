@@ -86,14 +86,16 @@ fade {
 }
 
 footer {
-  position: absolute;
-  min-width: 510px;
-  text-align: center;
   margin-top: 1%;
+  margin-left: 69%;
+  position: absolute;
+  max-width: 500px;
+  text-align: right;
+  display: block;
 }
 
 #tag {
-  font-size: 15px;
+  font-size: 17px;
   color: white;
   font-family: "Brittany Signature", sans-serif;
   text-shadow: 0 0 2px black;

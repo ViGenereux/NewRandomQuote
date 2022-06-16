@@ -107,3 +107,14 @@ footer {
     overflow-x: hidden;
   }
 }
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+  #quote-box {
+    min-width: 380px;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  body {
+    overflow-x: hidden;
+  }
+}

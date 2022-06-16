@@ -97,3 +97,9 @@ footer {
   font-family: "Brittany Signature", sans-serif;
   text-shadow: 0 0 2px black;
 }
+
+@media screen and (max-width: 540px) {
+  #quote-box {
+    width: 380px;
+  }
+}

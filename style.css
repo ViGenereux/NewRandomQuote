@@ -64,7 +64,6 @@
 }
 
 #wrapper {
-  margin: 10px 10px 10px 10px;
   height: 98vh;
   display: flex;
 }
@@ -98,7 +97,7 @@ footer {
   text-shadow: 0 0 2px black;
 }
 
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 640px) {
   #quote-box {
     width: 380px;
   }

@@ -101,4 +101,7 @@ footer {
   #quote-box {
     width: 380px;
   }
+  body {
+    overflow-x: hidden;
+  }
 }

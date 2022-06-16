@@ -23,6 +23,8 @@
   border-radius: 5%;
   padding-bottom: 20px;
   padding: 10px;
+  padding-right: min(10px);
+  padding-left: min(10px);
 }
 #button-box {
   height: 50px;
@@ -98,6 +100,13 @@ footer {
 }
 
 @media screen and (max-width: 640px) {
+  #quote-box {
+    min-width: 320px;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
   #quote-box {
     min-width: 320px;
     margin-right: 10px;

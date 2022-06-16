@@ -99,7 +99,9 @@ footer {
 
 @media screen and (max-width: 640px) {
   #quote-box {
-    width: 380px;
+    min-width: 380px;
+    margin-right: 10px;
+    margin-left: 10px;
   }
   body {
     overflow-x: hidden;

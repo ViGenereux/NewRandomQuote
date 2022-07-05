@@ -30,8 +30,18 @@ fetch("https://type.fit/api/quotes")
     setQuote();
 
     const setColor = function () {
-      const ranCol =
+      let ranCol =
         "#" + ((Math.random() * 0xffffff) << 0).toString(16).padStart(6, "0");
+      const colNum =
+        parseInt(ranCol.slice(1, 3), 16) +
+        parseInt(ranCol.slice(3, 5), 16) +
+        parseInt(ranCol.slice(5, 7), 16);
+      console.log(colNum);
+      // if (colNum > 500) {
+      //   ranCol =
+      //     "#" + ((Math.random() * 0xffffff) << 0).toString(16).padStart(6, "0");
+      // }
+
       const bg = document.getElementsByClassName("randomBgCol");
       bg[0].setAttribute("style", `background-color: ${ranCol}`);
       bg[1].setAttribute("style", `background-color: ${ranCol}`);
